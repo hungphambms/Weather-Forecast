@@ -1,0 +1,51 @@
+.item {
+  background: rgba(255, 255, 255, .87);
+
+  border: var(--color-light) 1px solid;
+  border-radius: calc(var(--border-radius) * 3);
+  padding: 16px 16px 8px;
+  margin-bottom: 12px;
+
+  position: relative;
+}
+
+.item h3 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0 0 8px;
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+.item p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0 0 8px;
+  color: var(--color-medium);
+}
+
+.item label {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 24px;
+
+  font-size: 32px;
+  color: var(--color-success);
+}
+
+.item p strong {
+    color: var(--color-dark);
+}
+
+
+.item p img {
+  width: 24px;
+  margin-right: 8px;
+  position: relative;
+  top: -4px;
+}
+
+.divider {
+  display: inline-block;
+  margin: 0 16px;
+}

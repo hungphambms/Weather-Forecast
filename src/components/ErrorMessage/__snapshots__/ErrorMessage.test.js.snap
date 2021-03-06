@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage rendering renders ErrorMessage component without crashing 1`] = `
+<div
+  aria-label="error-message"
+  className="message"
+>
+  Have error
+</div>
+`;

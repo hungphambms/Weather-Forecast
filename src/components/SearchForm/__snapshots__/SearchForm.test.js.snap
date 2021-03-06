@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm component rendering renders SearchForm component without crashing 1`] = `
+<div
+  className="searchContainer"
+>
+  <h1>
+    Weather Forecast
+  </h1>
+  <p>
+    Find the most current and reliable 5 day weather forecasts
+  </p>
+  <input
+    aria-label="search-input"
+    className="form-control"
+    onChange={[Function]}
+    placeholder="Enter City Name here ..."
+    type="text"
+    value=""
+  />
+</div>
+`;

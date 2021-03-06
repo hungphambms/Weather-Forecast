@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastList rendering renders ForecastList without crashing 1`] = `
+<div
+  className="list"
+>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-06T05:00:00.000Z"}
+      >
+        Saturday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-06T05:00:00.000Z"}
+      >
+        Mar 06, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      22
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      36
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/01d.png"
+      />
+      36
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-07T05:00:00.000Z"}
+      >
+        Sunday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-07T05:00:00.000Z"}
+      >
+        Mar 07, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      23
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      38
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/02d.png"
+      />
+      36
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-08T05:00:00.000Z"}
+      >
+        Monday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-08T05:00:00.000Z"}
+      >
+        Mar 08, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      23
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      38
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/01d.png"
+      />
+      35
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-09T05:00:00.000Z"}
+      >
+        Tuesday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-09T05:00:00.000Z"}
+      >
+        Mar 09, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      24
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      36
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/03d.png"
+      />
+      36
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-10T05:00:00.000Z"}
+      >
+        Wednesday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-10T05:00:00.000Z"}
+      >
+        Mar 10, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      24
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      37
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/01d.png"
+      />
+      37
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-11T05:00:00.000Z"}
+      >
+        Thursday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-11T05:00:00.000Z"}
+      >
+        Mar 11, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      24
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      37
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/03d.png"
+      />
+      37
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-12T05:00:00.000Z"}
+      >
+        Friday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-12T05:00:00.000Z"}
+      >
+        Mar 12, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      25
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      37
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/03d.png"
+      />
+      37
+    </label>
+  </div>
+  <div
+    aria-label="item"
+    className="item"
+  >
+    <h3>
+      <time
+        dateTime={"2021-03-13T05:00:00.000Z"}
+      >
+        Saturday
+      </time>
+    </h3>
+    <p>
+      <time
+        dateTime={"2021-03-13T05:00:00.000Z"}
+      >
+        Mar 13, 2021
+      </time>
+    </p>
+    <p>
+      <img
+        alt="min icon"
+        src="min.png"
+      />
+      <strong>
+        Min
+      </strong>
+       
+      24
+      <span
+        className="divider"
+      />
+      <img
+        alt="max icon"
+        src="max.png"
+      />
+      <strong>
+        Max
+      </strong>
+       
+      36
+    </p>
+    <label>
+      <img
+        alt="Temp Icon"
+        src="http://openweathermap.org/img/w/03d.png"
+      />
+      36
+    </label>
+  </div>
+</div>
+`;

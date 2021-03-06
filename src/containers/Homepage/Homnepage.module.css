@@ -1,0 +1,38 @@
+.leftContainer {
+    min-height: 100vh;
+    background: var(--color-light);
+}
+
+.leftContainer section {
+  padding: 40px 24px 16px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.rightContainer {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 16px;
+
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+  .leftContainer {
+    min-height: 0;
+  }
+
+  .leftContainer section {
+    padding: 16px 24px 24px;
+  }
+
+  .rightContainer {
+    border-top-left-radius: calc(var(--border-radius) * 8);
+    border-top-right-radius: calc(var(--border-radius) * 8);
+
+    min-height: 100vh;
+  }
+}

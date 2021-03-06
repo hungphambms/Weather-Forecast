@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --border-radius: 4px;
+
+  --line-height: 1.8;
+
+  /** primary **/
+  --color-primary: #0288d1;
+  --color-primary-rgb: 56, 128, 255;
+  --color-primary-contrast: #ffffff;
+  --color-primary-contrast-rgb: 255, 255, 255;
+  --color-primary-shade: #01579b;
+  --color-primary-tint: #03a9f4;
+
+  /** secondary **/
+  --color-secondary: #ffc107;
+  --color-secondary-rgb: 61, 194, 255;
+  --color-secondary-contrast: #000;
+  --color-secondary-contrast-rgb: 255, 255, 255;
+  --color-secondary-shade: #ffa000;
+  --color-secondary-tint: #ffca28;
+
+  /** tertiary **/
+  --color-info: #5260ff;
+  --color-info-rgb: 82, 96, 255;
+  --color-info-contrast: #ffffff;
+  --color-info-contrast-rgb: 255, 255, 255;
+  --color-info-shade: #4854e0;
+  --color-info-tint: #6370ff;
+
+  /** success **/
+  --color-success: #4caf50;
+  --color-success-rgb: 45, 211, 111;
+  --color-success-contrast: #ffffff;
+  --color-success-contrast-rgb: 255, 255, 255;
+  --color-success-shade: #43a047;
+  --color-success-tint: #66bb6a;
+
+  /** warning **/
+  --color-warning: #ffc409;
+  --color-warning-rgb: 255, 196, 9;
+  --color-warning-contrast: #000000;
+  --color-warning-contrast-rgb: 0, 0, 0;
+  --color-warning-shade: #e0ac08;
+  --color-warning-tint: #ffca22;
+
+  /** danger **/
+  --color-danger: #eb445a;
+  --color-danger-rgb: 235, 68, 90;
+  --color-danger-contrast: #ffffff;
+  --color-danger-contrast-rgb: 255, 255, 255;
+  --color-danger-shade: #cf3c4f;
+  --color-danger-tint: #ed576b;
+
+  /** dark **/
+  --color-dark: #222428;
+  --color-dark-rgb: 34, 36, 40;
+  --color-dark-contrast: #ffffff;
+  --color-dark-contrast-rgb: 255, 255, 255;
+  --color-dark-shade: #1e2023;
+  --color-dark-tint: #383a3e;
+
+  /** medium **/
+  --color-medium: #92949c;
+  --color-medium-rgb: 146, 148, 156;
+  --color-medium-contrast: #ffffff;
+  --color-medium-contrast-rgb: 255, 255, 255;
+  --color-medium-shade: #808289;
+  --color-medium-tint: #9d9fa6;
+
+  /** light **/
+  --color-light: #f4f5f8;
+  --color-light-rgb: 244, 245, 248;
+  --color-light-contrast: #000000;
+  --color-light-contrast-rgb: 0, 0, 0;
+  --color-light-shade: #d7d8da;
+  --color-light-tint: #f5f6f9;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--color-light);
+}

@@ -1,0 +1,28 @@
+.searchContainer {
+  padding-top: 40px;
+}
+
+.searchContainer input {
+  height: 48px;
+  border-color: #ececec;
+  color: var(--color-dark);
+  font-size: 15px;
+  text-align: center;
+}
+
+.searchContainer h1 {
+  font-size: 24px;
+  color: var(--color-dark);
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.searchContainer p {
+  font-size: 16px;
+  color: var(--color-medium);
+  text-align: center;
+  padding: 0;
+  margin: 0 0 24px;
+}

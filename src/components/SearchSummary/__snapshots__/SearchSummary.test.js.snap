@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSummary rendering renders SearchSummary component without crashing 1`] = `
+<div
+  aria-label="search-summary"
+  className="container"
+>
+  <h3>
+    Ho Chi Minh City
+  </h3>
+  <p>
+    <strong>
+      Timezone:
+    </strong>
+     
+    Asia/Ho_Chi_Minh
+  </p>
+  <label>
+    <img
+      alt="Temp Icon"
+      src="http://openweathermap.org/img/w/03d.png"
+    />
+    34
+  </label>
+</div>
+`;
