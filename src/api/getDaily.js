@@ -9,7 +9,9 @@ import api from "./index";
  * @returns
  */
 const getDaily = async function (coordLat, coordLong) {
-  return await api.get(`/onecall?lat=${coordLat}&lon=${coordLong}&exclude=minutely,hourly,alerts`);
+  return await api.get(
+    `/onecall?lat=${coordLat}&lon=${coordLong}&exclude=minutely,hourly,alerts`
+  );
 };
 
 export default getDaily;

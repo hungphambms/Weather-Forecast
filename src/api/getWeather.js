@@ -35,6 +35,4 @@ const getWeather = async function (query) {
   };
 };
 
-
-
 export default getWeather;
