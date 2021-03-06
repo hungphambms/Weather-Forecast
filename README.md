@@ -4,8 +4,7 @@ This project was bootstrapped with [Create Weather Forecast](https://github.com/
 
 ## API Problem:
 - The API metaweather.com/api have problem with CORS.
-- I can disable security Chrome (or other browsers) to develop the feature.
-- However, I think CORS should enable in Server.
+- I can disable security Chrome (or other browsers) to develop the feature. However, I think CORS should be enabled on Server.
 - So I changed to new library: api.openweathermap.org
 
 ## Technology
