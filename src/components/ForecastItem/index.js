@@ -45,7 +45,7 @@ ForecastItem.defaultProps = {
 };
 
 ForecastItem.propTypes = {
-  item: PropTypes.object,
+  item: PropTypes.object.isRequired,
 };
 
 export default ForecastItem;

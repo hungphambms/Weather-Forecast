@@ -1,9 +1,11 @@
-import { render, waitFor } from '@testing-library/react';
+import { render, cleanup, waitFor } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 
 import {MOCK_DATA} from "./mock";
 
 import ForecastList from './index';
+
+afterEach(cleanup);
 
 describe('ForecastList rendering', () => {
   it('renders ForecastList without crashing', () => {

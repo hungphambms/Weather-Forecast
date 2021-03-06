@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastItem rendering renders ForecastItem without crashing 1`] = `
+<div
+  aria-label="item"
+  className="item"
+>
+  <h3>
+    <time
+      dateTime={"2021-03-06T05:00:00.000Z"}
+    >
+      Saturday
+    </time>
+  </h3>
+  <p>
+    <time
+      dateTime={"2021-03-06T05:00:00.000Z"}
+    >
+      Mar 06, 2021
+    </time>
+  </p>
+  <p>
+    <img
+      alt="min icon"
+      src="min.png"
+    />
+    <strong>
+      Min
+    </strong>
+     
+    22
+    <span
+      className="divider"
+    />
+    <img
+      alt="max icon"
+      src="max.png"
+    />
+    <strong>
+      Max
+    </strong>
+     
+    36
+  </p>
+  <label>
+    <img
+      alt="Temp Icon"
+      src="http://openweathermap.org/img/w/01d.png"
+    />
+    36
+  </label>
+</div>
+`;
